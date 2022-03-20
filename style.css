@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+body{
+background-color:#184353;
+font-family: 'Seymour One', sans-serif;
+}
+table{
+ 
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+   
+  }
+   
+  .przycisk{
+    width:150px;
+    height:150px;
+    border:none;
+    background-color:#171a21;
+    color:#c5c3c0;
+    font-size:80px;
+    font-family: 'Seymour One', sans-serif;
+   
+   
+  }
+   
+  .przycisk:hover{
+    cursor:pointer;
+    opacity:0.8;
+  }
+   
+  td{
+    width:160px;
+    height:160px;
+    text-align:center;
+    padding:0px;
+  }
+   
+  h1,h2{
+    color:#c5c3c0;
+    width:450px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    text-transform:uppercase;
+  }
+
+  #restart{
+    background-color:#171a21;
+    font-size: 1.3em;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    margin: 1.5em auto 0 auto;
+    display: block;
+    color: white;
+   }
+
+   #restart:hover{
+       background-color: red;
+   }
+
+   #wynik{
+     width: 150px;
+     height: 125px;
+     border: 2px red solid;
+     background-color: aliceblue;
+     
+   }
+   #wynik h3{
+    text-align:center;
+    color: red;
+    
+   }
+a{
+  color: #c5c3c0;
+}
+a:hover{
+  color: red;
+}
+#small,p{
+  color: #c5c3c0;
+  font-size: 10px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
